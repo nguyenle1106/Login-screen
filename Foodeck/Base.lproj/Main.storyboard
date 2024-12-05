@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash Srceen-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Splash_Srceen" customModule="Foodeck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="SlU-ys-xdH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foodeck" translatesAutoresizingMaskIntoConstraints="NO" id="27k-ew-u7A">
+                                <rect key="frame" x="123.5" y="107" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="gpc-EV-3zc"/>
+                                    <constraint firstAttribute="width" constant="128" id="pNR-P5-kfP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aliquam commodo tortor lacinia lorem accumsan aliquam" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBq-84-Xo0">
+                                <rect key="frame" x="12" y="322.5" width="351" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foodeck" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SR-6j-O2g">
+                                <rect key="frame" x="100.5" y="243" width="174.5" height="50.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="42"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrk-ZN-h33">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="xfW-jP-KLM" kind="show" id="eaP-m4-t6J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SlU-ys-xdH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Fo-jC-fAX"/>
+                            <constraint firstItem="4SR-6j-O2g" firstAttribute="top" secondItem="27k-ew-u7A" secondAttribute="bottom" constant="8" symbolic="YES" id="91Z-GM-gYf"/>
+                            <constraint firstAttribute="bottom" secondItem="SlU-ys-xdH" secondAttribute="bottom" id="9it-8g-75c"/>
+                            <constraint firstItem="SlU-ys-xdH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DDo-cA-tbR"/>
+                            <constraint firstItem="Zrk-ZN-h33" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Gg6-Ge-5wn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QBq-84-Xo0" secondAttribute="trailing" id="KIH-oO-GJ7"/>
+                            <constraint firstItem="SlU-ys-xdH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RYn-Zu-au3"/>
+                            <constraint firstItem="4SR-6j-O2g" firstAttribute="top" secondItem="27k-ew-u7A" secondAttribute="bottom" constant="8" id="U6y-dg-55n"/>
+                            <constraint firstItem="QBq-84-Xo0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ULi-tQ-q3F"/>
+                            <constraint firstItem="27k-ew-u7A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="X5u-Qo-AA5"/>
+                            <constraint firstItem="QBq-84-Xo0" firstAttribute="top" secondItem="4SR-6j-O2g" secondAttribute="bottom" constant="29" id="fHL-Nv-IJb"/>
+                            <constraint firstItem="4SR-6j-O2g" firstAttribute="centerX" secondItem="QBq-84-Xo0" secondAttribute="centerX" id="fiR-IB-r0F"/>
+                            <constraint firstItem="Zrk-ZN-h33" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="o1s-ht-g6X"/>
+                            <constraint firstItem="27k-ew-u7A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oTQ-xa-tR8"/>
+                            <constraint firstItem="QBq-84-Xo0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pAB-V6-hlZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Zrk-ZN-h33" secondAttribute="bottom" id="vQr-jG-qDf"/>
+                            <constraint firstAttribute="trailing" secondItem="Zrk-ZN-h33" secondAttribute="trailing" id="zfw-G0-EMW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324.1860465116279" y="22.532188841201719"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sOy-5A-tFi">
+            <objects>
+                <viewController id="xfW-jP-KLM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hJq-HE-wo4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img" translatesAutoresizingMaskIntoConstraints="NO" id="GxV-cP-Jst">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" secondAttribute="height" multiplier="64:59" id="QLk-iu-AK8"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="H3M-9o-plb">
+                                <rect key="frame" x="20" y="167.5" width="335" height="385"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yi-OD-Img">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="65"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="raL-2H-PpU"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="GoogleLogo" title="Login via Google" imagePadding="17">
+                                            <backgroundConfiguration key="background" cornerRadius="20">
+                                                <color key="backgroundColor" red="0.9759615385" green="0.34244116790000001" blue="0.1202469406" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                            <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7EV-eK-Qpd">
+                                        <rect key="frame" x="0.0" y="80" width="335" height="65"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="1Q8-Y9-tGn"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="FacebookLogo" title="Login via Facebook" imagePadding="16">
+                                            <backgroundConfiguration key="background" cornerRadius="20">
+                                                <color key="backgroundColor" red="0.082352941176470587" green="0.37647058823529411" blue="0.70196078431372544" alpha="0.89216624149659862" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                            <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggw-oZ-z3X">
+                                        <rect key="frame" x="0.0" y="160" width="335" height="65"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="KHy-mj-kyV"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="AppleLogo" title="Login via Apple" imagePadding="17">
+                                            <backgroundConfiguration key="background" cornerRadius="20">
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                            <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZS3-dd-VQo">
+                                        <rect key="frame" x="0.0" y="240" width="335" height="65"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="sgO-Tp-fzj"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Envelope" title="Login via Email" imagePadding="17">
+                                            <backgroundConfiguration key="background" cornerRadius="20">
+                                                <color key="backgroundColor" red="0.9137254901960784" green="0.1803921568627451" blue="0.55686274509803924" alpha="0.90667517006802723" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                            <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXA-45-rEn">
+                                        <rect key="frame" x="0.0" y="320" width="335" height="65"/>
+                                        <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="j5E-dL-vV4"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="GoogleLogo" title="Create and account" imagePadding="2">
+                                            <backgroundConfiguration key="background" cornerRadius="20">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="strokeColor" systemColor="systemGray2Color"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray2Color"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AJN-jf-GJH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.14999999999999999" height="1"/>
+                        <constraints>
+                            <constraint firstItem="H3M-9o-plb" firstAttribute="leading" secondItem="AJN-jf-GJH" secondAttribute="leading" constant="20" id="4Hz-bT-K1m"/>
+                            <constraint firstItem="GxV-cP-Jst" firstAttribute="top" secondItem="hJq-HE-wo4" secondAttribute="top" id="55x-W0-V0U"/>
+                            <constraint firstAttribute="trailing" secondItem="GxV-cP-Jst" secondAttribute="trailing" id="BG6-Bt-7Ki"/>
+                            <constraint firstItem="AJN-jf-GJH" firstAttribute="trailing" secondItem="H3M-9o-plb" secondAttribute="trailing" constant="20" id="QhC-MA-JhX"/>
+                            <constraint firstItem="GxV-cP-Jst" firstAttribute="leading" secondItem="hJq-HE-wo4" secondAttribute="leading" id="X1m-Ud-hWm"/>
+                            <constraint firstItem="AJN-jf-GJH" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="H3M-9o-plb" secondAttribute="bottom" constant="94.670000000000002" id="bds-a1-22j"/>
+                            <constraint firstItem="H3M-9o-plb" firstAttribute="top" secondItem="GxV-cP-Jst" secondAttribute="bottom" constant="30" id="hKz-2Z-Wsg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NwW-07-J5p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="886-ao-aNO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2058.1395348837209" y="21.888412017167383"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppleLogo" width="24" height="24"/>
+        <image name="BG" width="183" height="417.5"/>
+        <image name="Envelope" width="24" height="24"/>
+        <image name="FacebookLogo" width="24" height="24"/>
+        <image name="Foodeck" width="124" height="124"/>
+        <image name="GoogleLogo" width="24" height="24"/>
+        <image name="Img" width="375" height="295"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

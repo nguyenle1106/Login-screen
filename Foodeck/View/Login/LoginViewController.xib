@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Foodeck" customModuleProvider="target">
+            <connections>
+                <outlet property="StackViewButoon" destination="8Ie-2z-Aim" id="rjE-sw-9Ye"/>
+                <outlet property="btCreateAccount" destination="8Ie-2z-Aim" id="YSA-7C-HGk"/>
+                <outlet property="btLoginviaApple" destination="RMn-qH-zOw" id="yMZ-2B-QXP"/>
+                <outlet property="btLoginviaEmail" destination="RMn-qH-zOw" id="ehu-CI-X5A"/>
+                <outlet property="btLoginviaFacebook" destination="73q-rS-pRP" id="ygq-Qk-LYz"/>
+                <outlet property="btLoginviaGoogle" destination="qah-y8-JVr" id="zHu-Lb-zUe"/>
+                <outlet property="labeLinkClick" destination="yfe-nj-gEs" id="GhV-mh-az2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img" translatesAutoresizingMaskIntoConstraints="NO" id="eJz-YU-Nuj">
+                    <rect key="frame" x="0.0" y="0.0" width="430" height="295"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="eJz-YU-Nuj" secondAttribute="height" multiplier="86:59" id="5Gh-Xo-aq2"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="295" id="asv-Q7-Jlh"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8Ie-2z-Aim">
+                    <rect key="frame" x="20" y="325" width="390" height="405"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qah-y8-JVr">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="65"/>
+                            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="d4u-Nn-AQi"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="GoogleLogo" title="Login via Google" imagePadding="17">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" red="0.9759615385" green="0.34244116790000001" blue="0.1202469406" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73q-rS-pRP">
+                            <rect key="frame" x="0.0" y="85" width="390" height="65"/>
+                            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="m0U-3s-Apl"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="FacebookLogo" title="Login via Facebook" imagePadding="17">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" red="0.08235294118" green="0.37647058820000001" blue="0.70196078429999997" alpha="0.89216624150000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vb-ej-JD1">
+                            <rect key="frame" x="0.0" y="170" width="390" height="65"/>
+                            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="bgC-Lh-rPA"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="AppleLogo" title="Login via Apple" imagePadding="17">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMn-qH-zOw">
+                            <rect key="frame" x="0.0" y="255" width="390" height="65"/>
+                            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="pPU-xS-OLc"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="Envelope" title="Login via Email" imagePadding="17">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" red="0.91372549020000005" green="0.18039215689999999" blue="0.5568627451" alpha="0.90667517009999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJX-PO-o0p">
+                            <rect key="frame" x="0.0" y="340" width="390" height="65"/>
+                            <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="7B9-FI-4ei"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="GoogleLogo" title="Create and account" imagePadding="2">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="strokeColor" systemColor="systemGray2Color"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" systemColor="systemGray2Color"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="CreateAnAccount:" destination="-1" eventType="touchUpInside" id="t4d-ub-gWH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfe-nj-gEs">
+                    <rect key="frame" x="20" y="750" width="390" height="65"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="AKP-md-z2r"/>
+                    </constraints>
+                    <color key="textColor" white="0.48645104895104896" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="eJz-YU-Nuj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3aB-oV-XfM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8Ie-2z-Aim" secondAttribute="bottom" constant="138" id="4o4-bu-4V6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yfe-nj-gEs" secondAttribute="bottom" constant="83" id="50H-Uh-UMT"/>
+                <constraint firstItem="8Ie-2z-Aim" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6zj-Bl-gTb"/>
+                <constraint firstAttribute="trailing" secondItem="8Ie-2z-Aim" secondAttribute="trailing" constant="20" id="IXb-hB-Fqf"/>
+                <constraint firstAttribute="trailing" secondItem="eJz-YU-Nuj" secondAttribute="trailing" id="Oee-uT-nrV"/>
+                <constraint firstItem="8Ie-2z-Aim" firstAttribute="top" secondItem="eJz-YU-Nuj" secondAttribute="bottom" constant="30" id="PeC-VH-6oc"/>
+                <constraint firstItem="yfe-nj-gEs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ckj-W7-FhM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yfe-nj-gEs" secondAttribute="trailing" constant="20" id="ooe-8K-YKB"/>
+                <constraint firstItem="eJz-YU-Nuj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tUN-Tc-r9I"/>
+                <constraint firstItem="yfe-nj-gEs" firstAttribute="top" secondItem="8Ie-2z-Aim" secondAttribute="bottom" constant="20" id="tay-Pe-X2K"/>
+            </constraints>
+            <point key="canvasLocation" x="12.55813953488372" y="-11.587982832618026"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AppleLogo" width="24" height="24"/>
+        <image name="Envelope" width="24" height="24"/>
+        <image name="FacebookLogo" width="24" height="24"/>
+        <image name="GoogleLogo" width="24" height="24"/>
+        <image name="Img" width="375" height="295"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

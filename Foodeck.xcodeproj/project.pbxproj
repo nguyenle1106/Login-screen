@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29024DD62C7DCEDF001D4243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29024DD52C7DCEDF001D4243 /* AppDelegate.swift */; };
+		29024DD82C7DCEDF001D4243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29024DD72C7DCEDF001D4243 /* SceneDelegate.swift */; };
+		29024DDD2C7DCEDF001D4243 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 29024DDC2C7DCEDF001D4243 /* Base */; };
+		29024DE22C7DCEE1001D4243 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 29024DE12C7DCEE1001D4243 /* Base */; };
+		29024DED2C7DCEE1001D4243 /* FoodeckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29024DEC2C7DCEE1001D4243 /* FoodeckTests.swift */; };
+		29024DF72C7DCEE1001D4243 /* FoodeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29024DF62C7DCEE1001D4243 /* FoodeckUITests.swift */; };
+		29024DF92C7DCEE1001D4243 /* FoodeckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29024DF82C7DCEE1001D4243 /* FoodeckUITestsLaunchTests.swift */; };
+		2928A7432C80649800D815AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7412C80649800D815AA /* LoginViewController.swift */; };
+		2928A7442C80649800D815AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A7422C80649800D815AA /* LoginViewController.xib */; };
+		2928A7472C80664400D815AA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7452C80664400D815AA /* SplashViewController.swift */; };
+		2928A7482C80664400D815AA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A7462C80664400D815AA /* SplashViewController.xib */; };
+		2928A74B2C84391100D815AA /* LoginviaEmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A74A2C84391100D815AA /* LoginviaEmailViewController.xib */; };
+		2928A74C2C84391100D815AA /* LoginviaEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7492C84391100D815AA /* LoginviaEmailViewController.swift */; };
+		2928A7572C876A8300D815AA /* CreateAnAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7552C876A8300D815AA /* CreateAnAccountViewController.swift */; };
+		2928A7582C876A8300D815AA /* CreateAnAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A7562C876A8300D815AA /* CreateAnAccountViewController.xib */; };
+		2928A75B2C876AA300D815AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7592C876AA300D815AA /* HomeViewController.swift */; };
+		2928A75C2C876AA300D815AA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A75A2C876AA300D815AA /* HomeViewController.xib */; };
+		2928A7622C8981C000D815AA /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7602C8981C000D815AA /* OTPViewController.swift */; };
+		2928A7632C8981C000D815AA /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A7612C8981C000D815AA /* OTPViewController.xib */; };
+		2928A7672C898E5900D815AA /* ForgotPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928A7652C898E5900D815AA /* ForgotPassWordViewController.swift */; };
+		2928A7682C898E5900D815AA /* ForgotPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928A7662C898E5900D815AA /* ForgotPassWordViewController.xib */; };
+		29DC54492C8033D5004D8138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DC54482C8033D5004D8138 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29024DE92C7DCEE1001D4243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29024DCA2C7DCEDF001D4243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29024DD12C7DCEDF001D4243;
+			remoteInfo = Foodeck;
+		};
+		29024DF32C7DCEE1001D4243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29024DCA2C7DCEDF001D4243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29024DD12C7DCEDF001D4243;
+			remoteInfo = Foodeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29024DD22C7DCEDF001D4243 /* Foodeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29024DD52C7DCEDF001D4243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29024DD72C7DCEDF001D4243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29024DDC2C7DCEDF001D4243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29024DE12C7DCEE1001D4243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29024DE32C7DCEE1001D4243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29024DE82C7DCEE1001D4243 /* FoodeckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29024DEC2C7DCEE1001D4243 /* FoodeckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodeckTests.swift; sourceTree = "<group>"; };
+		29024DF22C7DCEE1001D4243 /* FoodeckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29024DF62C7DCEE1001D4243 /* FoodeckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodeckUITests.swift; sourceTree = "<group>"; };
+		29024DF82C7DCEE1001D4243 /* FoodeckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodeckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2928A7412C80649800D815AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2928A7422C80649800D815AA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2928A7452C80664400D815AA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2928A7462C80664400D815AA /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		2928A7492C84391100D815AA /* LoginviaEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginviaEmailViewController.swift; sourceTree = "<group>"; };
+		2928A74A2C84391100D815AA /* LoginviaEmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginviaEmailViewController.xib; sourceTree = "<group>"; };
+		2928A7552C876A8300D815AA /* CreateAnAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountViewController.swift; sourceTree = "<group>"; };
+		2928A7562C876A8300D815AA /* CreateAnAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAnAccountViewController.xib; sourceTree = "<group>"; };
+		2928A7592C876AA300D815AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2928A75A2C876AA300D815AA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2928A7602C8981C000D815AA /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		2928A7612C8981C000D815AA /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+		2928A7652C898E5900D815AA /* ForgotPassWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassWordViewController.swift; sourceTree = "<group>"; };
+		2928A7662C898E5900D815AA /* ForgotPassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPassWordViewController.xib; sourceTree = "<group>"; };
+		29DC54482C8033D5004D8138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29024DCF2C7DCEDF001D4243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DE52C7DCEE1001D4243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DEF2C7DCEE1001D4243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29024DC92C7DCEDF001D4243 = {
+			isa = PBXGroup;
+			children = (
+				29024DD42C7DCEDF001D4243 /* Foodeck */,
+				29024DEB2C7DCEE1001D4243 /* FoodeckTests */,
+				29024DF52C7DCEE1001D4243 /* FoodeckUITests */,
+				29024DD32C7DCEDF001D4243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29024DD32C7DCEDF001D4243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29024DD22C7DCEDF001D4243 /* Foodeck.app */,
+				29024DE82C7DCEE1001D4243 /* FoodeckTests.xctest */,
+				29024DF22C7DCEE1001D4243 /* FoodeckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29024DD42C7DCEDF001D4243 /* Foodeck */ = {
+			isa = PBXGroup;
+			children = (
+				29024E092C7DD3FD001D4243 /* View */,
+				29024DD52C7DCEDF001D4243 /* AppDelegate.swift */,
+				29024DD72C7DCEDF001D4243 /* SceneDelegate.swift */,
+				29024DDB2C7DCEDF001D4243 /* Main.storyboard */,
+				29DC54482C8033D5004D8138 /* Assets.xcassets */,
+				29024DE02C7DCEE1001D4243 /* LaunchScreen.storyboard */,
+				29024DE32C7DCEE1001D4243 /* Info.plist */,
+			);
+			path = Foodeck;
+			sourceTree = "<group>";
+		};
+		29024DEB2C7DCEE1001D4243 /* FoodeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				29024DEC2C7DCEE1001D4243 /* FoodeckTests.swift */,
+			);
+			path = FoodeckTests;
+			sourceTree = "<group>";
+		};
+		29024DF52C7DCEE1001D4243 /* FoodeckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29024DF62C7DCEE1001D4243 /* FoodeckUITests.swift */,
+				29024DF82C7DCEE1001D4243 /* FoodeckUITestsLaunchTests.swift */,
+			);
+			path = FoodeckUITests;
+			sourceTree = "<group>";
+		};
+		29024E092C7DD3FD001D4243 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7502C84A43600D815AA /* Splash */,
+				2928A7512C84A47700D815AA /* Login */,
+				2928A7522C84A4DC00D815AA /* LoginviaEmail */,
+				2928A7542C876A2D00D815AA /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2928A7502C84A43600D815AA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7452C80664400D815AA /* SplashViewController.swift */,
+				2928A7462C80664400D815AA /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		2928A7512C84A47700D815AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7412C80649800D815AA /* LoginViewController.swift */,
+				2928A7422C80649800D815AA /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2928A7522C84A4DC00D815AA /* LoginviaEmail */ = {
+			isa = PBXGroup;
+			children = (
+				2928A75D2C89812100D815AA /* LoginEmail */,
+				2928A75E2C89813700D815AA /* CreateAndAccount */,
+				2928A75F2C89819200D815AA /* OTP */,
+				2928A7642C898E0700D815AA /* ForgotPassword */,
+			);
+			name = LoginviaEmail;
+			sourceTree = "<group>";
+		};
+		2928A7542C876A2D00D815AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7592C876AA300D815AA /* HomeViewController.swift */,
+				2928A75A2C876AA300D815AA /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2928A75D2C89812100D815AA /* LoginEmail */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7492C84391100D815AA /* LoginviaEmailViewController.swift */,
+				2928A74A2C84391100D815AA /* LoginviaEmailViewController.xib */,
+			);
+			name = LoginEmail;
+			sourceTree = "<group>";
+		};
+		2928A75E2C89813700D815AA /* CreateAndAccount */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7552C876A8300D815AA /* CreateAnAccountViewController.swift */,
+				2928A7562C876A8300D815AA /* CreateAnAccountViewController.xib */,
+			);
+			name = CreateAndAccount;
+			sourceTree = "<group>";
+		};
+		2928A75F2C89819200D815AA /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7602C8981C000D815AA /* OTPViewController.swift */,
+				2928A7612C8981C000D815AA /* OTPViewController.xib */,
+			);
+			name = OTP;
+			sourceTree = "<group>";
+		};
+		2928A7642C898E0700D815AA /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				2928A7652C898E5900D815AA /* ForgotPassWordViewController.swift */,
+				2928A7662C898E5900D815AA /* ForgotPassWordViewController.xib */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29024DD12C7DCEDF001D4243 /* Foodeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29024DFC2C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "Foodeck" */;
+			buildPhases = (
+				29024DCE2C7DCEDF001D4243 /* Sources */,
+				29024DCF2C7DCEDF001D4243 /* Frameworks */,
+				29024DD02C7DCEDF001D4243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodeck;
+			productName = Foodeck;
+			productReference = 29024DD22C7DCEDF001D4243 /* Foodeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29024DE72C7DCEE1001D4243 /* FoodeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29024DFF2C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "FoodeckTests" */;
+			buildPhases = (
+				29024DE42C7DCEE1001D4243 /* Sources */,
+				29024DE52C7DCEE1001D4243 /* Frameworks */,
+				29024DE62C7DCEE1001D4243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29024DEA2C7DCEE1001D4243 /* PBXTargetDependency */,
+			);
+			name = FoodeckTests;
+			productName = FoodeckTests;
+			productReference = 29024DE82C7DCEE1001D4243 /* FoodeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29024DF12C7DCEE1001D4243 /* FoodeckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29024E022C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "FoodeckUITests" */;
+			buildPhases = (
+				29024DEE2C7DCEE1001D4243 /* Sources */,
+				29024DEF2C7DCEE1001D4243 /* Frameworks */,
+				29024DF02C7DCEE1001D4243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29024DF42C7DCEE1001D4243 /* PBXTargetDependency */,
+			);
+			name = FoodeckUITests;
+			productName = FoodeckUITests;
+			productReference = 29024DF22C7DCEE1001D4243 /* FoodeckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29024DCA2C7DCEDF001D4243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					29024DD12C7DCEDF001D4243 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					29024DE72C7DCEE1001D4243 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 29024DD12C7DCEDF001D4243;
+					};
+					29024DF12C7DCEE1001D4243 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 29024DD12C7DCEDF001D4243;
+					};
+				};
+			};
+			buildConfigurationList = 29024DCD2C7DCEDF001D4243 /* Build configuration list for PBXProject "Foodeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29024DC92C7DCEDF001D4243;
+			productRefGroup = 29024DD32C7DCEDF001D4243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29024DD12C7DCEDF001D4243 /* Foodeck */,
+				29024DE72C7DCEE1001D4243 /* FoodeckTests */,
+				29024DF12C7DCEE1001D4243 /* FoodeckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29024DD02C7DCEDF001D4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2928A7442C80649800D815AA /* LoginViewController.xib in Resources */,
+				29DC54492C8033D5004D8138 /* Assets.xcassets in Resources */,
+				2928A74B2C84391100D815AA /* LoginviaEmailViewController.xib in Resources */,
+				2928A7632C8981C000D815AA /* OTPViewController.xib in Resources */,
+				29024DE22C7DCEE1001D4243 /* Base in Resources */,
+				2928A7482C80664400D815AA /* SplashViewController.xib in Resources */,
+				2928A7682C898E5900D815AA /* ForgotPassWordViewController.xib in Resources */,
+				29024DDD2C7DCEDF001D4243 /* Base in Resources */,
+				2928A7582C876A8300D815AA /* CreateAnAccountViewController.xib in Resources */,
+				2928A75C2C876AA300D815AA /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DE62C7DCEE1001D4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DF02C7DCEE1001D4243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29024DCE2C7DCEDF001D4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2928A74C2C84391100D815AA /* LoginviaEmailViewController.swift in Sources */,
+				2928A7432C80649800D815AA /* LoginViewController.swift in Sources */,
+				29024DD62C7DCEDF001D4243 /* AppDelegate.swift in Sources */,
+				2928A7672C898E5900D815AA /* ForgotPassWordViewController.swift in Sources */,
+				2928A7572C876A8300D815AA /* CreateAnAccountViewController.swift in Sources */,
+				2928A7622C8981C000D815AA /* OTPViewController.swift in Sources */,
+				29024DD82C7DCEDF001D4243 /* SceneDelegate.swift in Sources */,
+				2928A75B2C876AA300D815AA /* HomeViewController.swift in Sources */,
+				2928A7472C80664400D815AA /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DE42C7DCEE1001D4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29024DED2C7DCEE1001D4243 /* FoodeckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29024DEE2C7DCEE1001D4243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29024DF92C7DCEE1001D4243 /* FoodeckUITestsLaunchTests.swift in Sources */,
+				29024DF72C7DCEE1001D4243 /* FoodeckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29024DEA2C7DCEE1001D4243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29024DD12C7DCEDF001D4243 /* Foodeck */;
+			targetProxy = 29024DE92C7DCEE1001D4243 /* PBXContainerItemProxy */;
+		};
+		29024DF42C7DCEE1001D4243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29024DD12C7DCEDF001D4243 /* Foodeck */;
+			targetProxy = 29024DF32C7DCEE1001D4243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29024DDB2C7DCEDF001D4243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29024DDC2C7DCEDF001D4243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29024DE02C7DCEE1001D4243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29024DE12C7DCEE1001D4243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29024DFA2C7DCEE1001D4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29024DFB2C7DCEE1001D4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29024DFD2C7DCEE1001D4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AFKDJNSJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodeck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.Foodeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29024DFE2C7DCEE1001D4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AFKDJNSJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodeck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.Foodeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29024E002C7DCEE1001D4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.FoodeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodeck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodeck";
+			};
+			name = Debug;
+		};
+		29024E012C7DCEE1001D4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AFKDJNSJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.FoodeckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodeck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodeck";
+			};
+			name = Release;
+		};
+		29024E032C7DCEE1001D4243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.FoodeckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodeck;
+			};
+			name = Debug;
+		};
+		29024E042C7DCEE1001D4243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AFKDJNSJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NguyenLe.FoodeckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodeck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29024DCD2C7DCEDF001D4243 /* Build configuration list for PBXProject "Foodeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29024DFA2C7DCEE1001D4243 /* Debug */,
+				29024DFB2C7DCEE1001D4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29024DFC2C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "Foodeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29024DFD2C7DCEE1001D4243 /* Debug */,
+				29024DFE2C7DCEE1001D4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29024DFF2C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "FoodeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29024E002C7DCEE1001D4243 /* Debug */,
+				29024E012C7DCEE1001D4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29024E022C7DCEE1001D4243 /* Build configuration list for PBXNativeTarget "FoodeckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29024E032C7DCEE1001D4243 /* Debug */,
+				29024E042C7DCEE1001D4243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29024DCA2C7DCEDF001D4243 /* Project object */;
+}

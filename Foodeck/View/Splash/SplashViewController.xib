@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="Foodeck" customModuleProvider="target">
+            <connections>
+                <outlet property="logo_Splash" destination="wv1-bN-DVz" id="Yig-lM-XWq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wv1-bN-DVz">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foodeck" translatesAutoresizingMaskIntoConstraints="NO" id="PCw-GD-zL0">
+                    <rect key="frame" x="134.66666666666666" y="146" width="123.99999999999997" height="124"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="124" id="02d-Sq-Loz"/>
+                        <constraint firstAttribute="height" constant="124" id="2u1-sa-D7Y"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foodeck" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzp-uW-V94">
+                    <rect key="frame" x="114.33333333333333" y="278" width="164.66666666666669" height="45"/>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aliquam commodo tortor lacinia lorem accumsan aliquam" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDu-mZ-pDp">
+                    <rect key="frame" x="0.0" y="352" width="393" height="47"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-yA-rV2">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=""/>
+                    <connections>
+                        <action selector="button_Splash:" destination="-1" eventType="touchUpInside" id="mXG-Sa-m4v"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="cDh-yA-rV2" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4A8-Ru-lNt"/>
+                <constraint firstItem="ZDu-mZ-pDp" firstAttribute="top" secondItem="bzp-uW-V94" secondAttribute="bottom" constant="29" id="5Mj-01-f60"/>
+                <constraint firstItem="wv1-bN-DVz" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="E2H-vQ-Z6R"/>
+                <constraint firstItem="PCw-GD-zL0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ev4-gq-hD7"/>
+                <constraint firstItem="bzp-uW-V94" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="V6u-d2-LOn"/>
+                <constraint firstItem="cDh-yA-rV2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eVf-Ns-Jfg"/>
+                <constraint firstItem="ZDu-mZ-pDp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fEF-Bf-E0V"/>
+                <constraint firstItem="wv1-bN-DVz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gfI-b4-G6a"/>
+                <constraint firstAttribute="bottom" secondItem="cDh-yA-rV2" secondAttribute="bottom" id="i98-PG-chy"/>
+                <constraint firstAttribute="trailing" secondItem="ZDu-mZ-pDp" secondAttribute="trailing" id="kKs-NX-XvD"/>
+                <constraint firstItem="cDh-yA-rV2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kfm-lb-uty"/>
+                <constraint firstItem="bzp-uW-V94" firstAttribute="top" secondItem="PCw-GD-zL0" secondAttribute="bottom" constant="8" id="ktY-ph-wr9"/>
+                <constraint firstAttribute="bottom" secondItem="wv1-bN-DVz" secondAttribute="bottom" id="mTf-yW-mfw"/>
+                <constraint firstItem="wv1-bN-DVz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pGF-fH-gxy"/>
+                <constraint firstItem="PCw-GD-zL0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="87" id="tFn-ch-WTe"/>
+                <constraint firstItem="ZDu-mZ-pDp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yFI-FR-69s"/>
+            </constraints>
+            <point key="canvasLocation" x="31.297709923664122" y="-11.971830985915494"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Foodeck" width="124" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

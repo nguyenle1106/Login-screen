@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Foodeck" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Bar" translatesAutoresizingMaskIntoConstraints="NO" id="Wdn-Lg-AtE">
+                    <rect key="frame" x="0.0" y="0.0" width="430" height="241"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Wdn-Lg-AtE" secondAttribute="height" multiplier="107:60" id="j1a-TW-9YO"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QSy-Y0-hAR">
+                    <rect key="frame" x="20" y="74" width="390" height="138"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDK-pJ-VGd">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="65"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="65" id="RQb-pj-YBh"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="MapPin" title="Block B Phase 2 Johar Town, Lahore" subtitle="" imagePadding="11">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                <color key="baseForegroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYO-pS-Ywa">
+                            <rect key="frame" x="0.0" y="73" width="390" height="65"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="65" id="tJj-qr-Mk2"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="MagnifyingGlass" title="Search..." subtitle="" imagePadding="11">
+                                <backgroundConfiguration key="background" cornerRadius="20">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" name="ArialMT" family="Arial" pointSize="21"/>
+                                <color key="baseForegroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="QSy-Y0-hAR" secondAttribute="height" multiplier="65:23" id="tYC-bA-fSG"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Wdn-Lg-AtE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1fa-pw-Bmf"/>
+                <constraint firstItem="Wdn-Lg-AtE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ls2-Af-6UN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QSy-Y0-hAR" secondAttribute="trailing" constant="20" id="Owu-hl-Fu1"/>
+                <constraint firstItem="Wdn-Lg-AtE" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="YGO-DU-XM3"/>
+                <constraint firstItem="QSy-Y0-hAR" firstAttribute="top" secondItem="Wdn-Lg-AtE" secondAttribute="top" constant="74" id="fPj-8g-ryX"/>
+                <constraint firstItem="QSy-Y0-hAR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="olA-9B-1uF"/>
+            </constraints>
+            <point key="canvasLocation" x="32.093023255813954" y="-11.587982832618026"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Home Bar" width="125" height="56"/>
+        <image name="MagnifyingGlass" width="22" height="22"/>
+        <image name="MapPin" width="22" height="22"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
